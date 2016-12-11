@@ -1,0 +1,17 @@
+.result, .error {
+  display: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Quicksand');
+
+header, h1 {
+	font-family: 'Anton', sans-serif;
+}
+
+ul, ul li {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.results {
+	text-align: center
+}
