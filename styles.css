@@ -1,0 +1,117 @@
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+
+h1, h2, h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: maroon;
+}
+
+p, li { 
+	font-family: 'Roboto', sans-serif;
+}
+
+.project {
+	background-color: maroon;
+	width: 543px;
+}
+
+
+h2 ol {
+	color: #e0e209;
+}
+
+body{
+	background color: white
+}
+
+.wrapper {
+	width: 960px;
+	margin: 100px;
+}
+
+header, footer{;
+	text-align: center;
+	padding: 10px 50px;
+}
+
+header img {
+	width: 50%; 
+	border-radius: 15px;
+
+}
+
+h1, h2, h2 ul, ul li, p{;
+	text-align: center;
+	padding: 10px 50px;
+}
+
+.main-content{
+	background-color: white;
+	padding: 10px 0;
+	border-top: 3px solid #FFDF00;
+}
+
+.main-content ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.main-content ul li {
+	padding: 50px;
+	text-align: center;
+}
+
+a{
+	color: black
+	text-decoration: none;
+}
+
+.main-content p {
+	margin: 10px 5px
+	text-align: justify-all;
+}
+
+
+
+#projects {
+	background-color: maroon;
+}
+
+.clearfix:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.project {
+	width: 30%;
+	display: inline block;
+	background-color: white;
+	margin: 1.66%;
+	border-radius: 4 px;
+	float: left;
+}
+
+.project h2 {
+	text-align: center;
+}
+
+.project img {
+	max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
