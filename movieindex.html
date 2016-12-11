@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Open Movie Database search</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Search the Open Movie Database (OMDB)</h1>
+  <form id="movie-search-form">
+    <input type="text" name="query">
+    <button>Search</button>
+  </form>
+
+  <div class="result">
+    <h1 id="title"></h1>
+    <img src="" id="poster" alt="">
+    <ul>
+      <li>Year: <span id="year"></span></li>
+      <li>Actors: <span id="actors"></span></li>
+      <li>Awards: <span id="awards"></span> </li>
+      <li>Country: <span id="country"></span></li>
+      <Li>Director: <span id="director"></span></Li>
+      <Li>Language: <span id="language"></span></Li>
+      <li>Metascore: <span id="metascore"></span></li>
+      <Li>Plot: <span id="plot"></span></Li>
+      <li>Rated: <span id="rated"></span></li>
+      <Li>Released: <span id="released"></span></Li>
+      <Li>Response: <span id="response"></span></Li>
+      <li>Runtime: <span id="runtime"></span></li>
+      <li>Writer: <span id="writer"></span></li>
+      <li>IMDB ID: <span id="imdbID"></span></li>
+  
+
+
+
+      <!-- Lab: With a partner, expand this to include all the info you can about the movie -->
+    </ul>
+  </div>
+
+  <div class="error">
+    Sorry, an error has occurred. Try again.
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
+
