@@ -1,7 +1,7 @@
 
 function searchIMDB(query) {
   // http://www.omdbapi.com/?t=rocky&y=&plot=short&r=json
-  $.getJSON('http://www.omdbapi.com/', {
+  $.getJSON('https://www.omdbapi.com/', {
     t: query,
     plot: "short",
     r: 'json' //these are parameters provided by OMDB. See the example URL above
